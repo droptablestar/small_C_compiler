@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL PROC (main (BODY (DECL (int x12) (char y12)) (read x12) (output y12) (print "Hello world!") return (return (+ x12 y12)) (readc x12) (outputc x12) (CALL foo ARGS) (CALL foo (ARGS a x d zx)))))

@@ -1,0 +1,1 @@
+(PROGRAM <mismatched token: [@2,9:9='3',<35>,1:9], resync=#include 3> DECL PROC (main (BODY DECL)))

@@ -1,0 +1,1 @@
+(PROGRAM INCL (DECL (int x) (int y) (char z) (int j)) (PROC (a (TYPE char) ARGS (BODY DECL))) <mismatched token: [@31,46:46='<EOF>',<-1>,7:0], resync=>)

@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL (PROC <mismatched token: [@4,6:9='main',<31>,3:4], resync=int>) (main (BODY DECL)))

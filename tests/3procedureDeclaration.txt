@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL (PROC (function (TYPE int) (ARGS (int x) (char c) (int y)) (BODY DECL (= x 3) (= c a))) (method (TYPE int) ARGS (BODY DECL)) (mem TYPE (ARGS (int x)) (BODY DECL (= z (+ x y))))) (main (BODY DECL)))

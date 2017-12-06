@@ -1,0 +1,1 @@
+(PROGRAM (INCL "stdio.h" "math.h" "alg.h" "memory.h") DECL PROC (main (BODY DECL)))

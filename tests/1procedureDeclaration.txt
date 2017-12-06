@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL (PROC (function (TYPE int) (ARGS (int x) (char c) (int y)) (BODY DECL (= x 3) (= c a)))) (main (BODY DECL)))

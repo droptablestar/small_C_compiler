@@ -1,0 +1,51 @@
+<project name="reese_compiler" default="build">
+  <path id="project.class.path">
+    <pathelement location="lib/antlr-3.4.jar"/>
+  </path>
+  <target name="all" depends="clean,antlr,compile,run" />
+  <target name="build" depends="antlr,compile,jar" />
+  
+  <target name="antlr">
+    <java classname="org.antlr.Tool" fork="true" failonerror="true">
+      <classpath refid="project.class.path"/>
+      <arg value="-verbose"/>
+      <arg value="-make"/>
+      <arg value="-o"/>
+      <arg path="src/frontend/"/>
+      <arg path="src/frontend/SmallC.g"/>
+    </java>
+  </target>
+  
+  <target name="compile" depends="antlr" description="compile">
+    <javac srcdir="src/frontend/"
+	   destdir="bin/"
+	   deprecation="Yes"
+	   listfiles="Yes"
+	   includeantruntime="false">
+	<classpath refid="project.class.path"/>
+    </javac>
+  </target>
+  
+  <target name="jar">
+    <jar destfile="lib/compiler.jar" manifest="src/compiler.manifest"  basedir="bin/"/>
+  </target>
+  
+  <target name="run">
+    <java jar="lib/compiler.jar" fork="true">
+      <arg value="tests/"/>
+    </java>
+  </target>
+  
+  <target name="clean">
+    <delete>
+      <fileset dir="src/frontend">
+	<include name="**/SmallCLexer.java"/>
+	<include name="**/SmallCParser.java"/>
+	<include name="**/SmallC.tokens"/>
+      </fileset>
+      <fileset dir="bin/frontend">
+	<include name="**/*"/>
+      </fileset>
+    </delete>
+  </target>
+</project>

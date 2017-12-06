@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL (PROC (func (TYPE int) (ARGS (int x)) (BODY DECL))) (main (BODY DECL (CALL func ARGS))))

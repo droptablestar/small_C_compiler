@@ -1,0 +1,1 @@
+(PROGRAM INCL (DECL (int x) (int y) (char z) (int j) (char a)) PROC (main (BODY DECL)))

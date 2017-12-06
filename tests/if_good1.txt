@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL PROC (main (BODY DECL (IF_TO (< x1 3) (BODY (= x (+ x 1)) (IF_TO (> x2 (+ 4 f)) (BODY (= y (+ y 1))) (ELSE_TO BODY))) (ELSE_TO (BODY (= y (+ y (* 2 x)))))))))

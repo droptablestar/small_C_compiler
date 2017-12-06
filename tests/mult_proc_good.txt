@@ -1,0 +1,1 @@
+(PROGRAM (INCL "stdio.h") DECL (PROC (fun (TYPE int) ARGS (BODY (DECL (int x)) (= x 9))) (func2 (TYPE int) (ARGS (int y)) (BODY DECL (= y 8))) (func3 (TYPE int) (ARGS (int y) (int x)) (BODY (DECL (int z)) (= z (+ x y)) (return z)))) (main (BODY (DECL (int x) (char h)) (= x 8) (CALL fun ARGS) (CALL func2 (ARGS x)))))

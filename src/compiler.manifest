@@ -1,0 +1,2 @@
+Main-Class: frontend.SmallCParser
+Class-Path: antlr-3.4.jar

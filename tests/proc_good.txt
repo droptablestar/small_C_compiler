@@ -1,0 +1,1 @@
+(PROGRAM INCL (DECL (int x) (char a)) (PROC (b (TYPE int) (ARGS (int a) (int b)) (BODY (DECL (int a)) (= x 7))) (c (TYPE char) (ARGS (int a) (char b)) (BODY (DECL (char a) (int b)) (= x (+ (/ (* x 5) 4) 3)))) (f TYPE ARGS (BODY DECL))) (main (BODY DECL)))

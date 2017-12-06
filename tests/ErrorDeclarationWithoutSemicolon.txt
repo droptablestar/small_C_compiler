@@ -1,0 +1,3 @@
+(PROGRAM INCL DECL PROC (main <mismatched token: [@7,10:12='int',<26>,3:1], resync={
+ int x
+}>))

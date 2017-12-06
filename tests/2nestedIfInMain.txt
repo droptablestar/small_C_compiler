@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL PROC (main (BODY (DECL (int x)) (= x 3) (IF_TO (> x 3) (BODY (output x) (IF_TO (== x 3) (BODY (outputc x)) (ELSE_TO (BODY (readc x12))))) (ELSE_TO (BODY (readc x1)))))))

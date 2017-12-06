@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL (PROC (function TYPE ARGS (BODY (DECL (int x)) (= x 3) (IF_TO (> x 3) (BODY (output x)) (ELSE_TO (BODY (readc x1))))))) (main (BODY DECL)))

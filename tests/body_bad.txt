@@ -1,0 +1,5 @@
+(PROGRAM (INCL "stdio.h") (DECL (int a) (char b)) (PROC (b (TYPE int) ARGS (BODY DECL)) (c (TYPE char) ARGS (BODY DECL)) (f TYPE ARGS (BODY DECL))) (main <mismatched token: [@55,84:86='int',<26>,9:4], resync={
+    x6=4;
+    int x;
+    char y;
+}>))

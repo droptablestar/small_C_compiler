@@ -1,0 +1,31 @@
+All features specified in the documentation have been provided. A warning
+is displayed for the IF / ELSE rule but the parsing of various IF / ELSE
+statements have been tested and verified to be parsed correctly.
+
+build comands:
+ant antlr:
+    generates the .java files from src/frontend/SmallC.g
+ant compile:
+    runs ant antlr and compiles the .java files
+ant jar:
+    generates a jar file 
+ant build:
+    runs ant antlr, ant compile, ant jar
+ant run:
+    runs the jar file with the whole test suite as input
+to run with single file:
+   java -jar lib/compiler.jar [name of file]
+
+For testing purposes the entire tests/ directory be passed as an argument.
+This will test each file in that directory and produce a .txt file of the
+tree for each file. Also, error messages will be printed if a lexical or
+syntactical error is found. Individual files can also be passed as an
+argument with the same behavior as passing the directory (except only
+that file will be parsed).
+
+For testing 38 .c files have been created by myself and 27 files were
+created by my colleague Christian Lalanne examining correct versions of
+the various rules and incorrect versions of those rules also. For testing
+the entire tests/ directory is passed to the compiler and the results can be
+examined very easily. To examine the tree a .txt file is generated with the
+same name as the input file.

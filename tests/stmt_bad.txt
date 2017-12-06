@@ -1,0 +1,6 @@
+(PROGRAM INCL DECL PROC (main <mismatched token: [@50,182:182='<EOF>',<-1>,13:0], resync={
+    int x12;
+    char y12;
+    read(x12;
+    outputy12);
+    print(Hello world!>))

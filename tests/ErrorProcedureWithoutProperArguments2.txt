@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL (PROC <mismatched token: [@5,14:14=''',<8>,2:13], resync=int function('> <mismatched token: [@7,16:16=''',<8>,2:15], resync=c',> (x (TYPE int) ARGS <mismatched token: [@14,25:25=';',<47>,2:24], resync=;>)) (main (BODY DECL)))

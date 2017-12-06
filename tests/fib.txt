@@ -1,0 +1,1 @@
+(PROGRAM (INCL "stdio.h") DECL (PROC (fib (TYPE int) (ARGS (int n)) (BODY (DECL (int a) (int b) (int c)) (IF_TO (== n 1) (BODY (return 0)) (ELSE_TO BODY)) (IF_TO (== n 2) (BODY (return 1)) (ELSE_TO BODY)) (= a (- n 1)) (= b (- n 2)) (= c (+ (CALL fib (ARGS a)) (CALL fib (ARGS b)))) (return x)))) (main (BODY (DECL (int x) (int y)) (= y 5) (= x (CALL fib (ARGS y))) (print "x"))))

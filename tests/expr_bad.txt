@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL PROC (main (BODY (DECL (int x12)) (while (< (+ x 1) 2)) (while (> (+ x 1) 2)) <mismatched token: [@60,79:79='&',<8>,5:14], resync=while(x+1 & 2)> (while (+ (+ x 1) 2)) (while (!= (+ x 1) 2)) <mismatched token: [@114,146:146='=',<14>,8:14], resync=while(x+1 = 2)>)))

@@ -1,0 +1,1 @@
+(PROGRAM INCL DECL PROC (main (BODY DECL (= x (CALL foo ARGS)) (= y (CALL bar (ARGS a b c))) (= y (CALL bar (ARGS ab c))))))

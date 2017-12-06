@@ -1,0 +1,1 @@
+(PROGRAM (INCL "stdio.h") (DECL (int a) (char b)) (PROC (b (TYPE int) ARGS (BODY DECL)) (c (TYPE char) ARGS (BODY DECL)) (f TYPE ARGS (BODY DECL))) (main (BODY (DECL (int x) (char y)) (= x6 4) (= y3y3 (- (+ x 43) (/ (* 43 43) fdsk))))))
